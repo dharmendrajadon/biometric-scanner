@@ -54,7 +54,7 @@ app.use(lusca({
 /**
  * Application Routes.
  */
-app.use('/api', router);
+app.use('/', router);
 
 // Basic 404 handler
 app.use((req, res) => {
